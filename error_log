@@ -1,0 +1,580 @@
+[17-Aug-2020 03:52:38 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Table 'boffolo_db.boffolo_store' doesn't exist<br />Error No: 1146<br />SELECT * FROM boffolo_store WHERE REPLACE(`url`, 'www.', '') = 'http://boffolo1003.firstcomdemo.com/demo-boffolo/' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM b...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/startup.php(14): DB->query('SELECT * FROM b...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupStartup->index()
+#3 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(19): Front->execute(Object(Action))
+#5 /home/boffolo/public_html/demo-boffolo/system/framework.php(103): Front->dispatch(Object(Action), Object(Action))
+#6 /home/boffolo/public_html/dem in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[22-Aug-2020 22:03:34 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(77): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[02-Oct-2020 15:33:02 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/boffolo/public_html/demo-boffolo/catalog/controller/information/contact.php on line 98
+[02-Oct-2020 15:54:37 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/boffolo/public_html/demo-boffolo/catalog/controller/information/contact.php on line 98
+[02-Oct-2020 16:11:03 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/boffolo/public_html/demo-boffolo/catalog/controller/information/contact.php on line 98
+[02-Oct-2020 16:11:03 Asia/Singapore] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/boffolo/public_html/demo-boffolo/catalog/controller/information/contact.php on line 98
+[05-Oct-2020 17:07:09 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[05-Oct-2020 17:07:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[05-Oct-2020 17:07:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[05-Oct-2020 17:07:09 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[07-Oct-2020 15:32:20 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[07-Oct-2020 15:33:06 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:43:42 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:43:43 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:43:44 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:43:48 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:43:50 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:43:51 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:43:52 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:44:01 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:44:04 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:47:00 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:48:00 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:48:32 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 12:49:31 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 13:02:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 13:03:20 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 13:03:59 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 13:04:00 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[08-Oct-2020 13:04:28 Asia/Singapore] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1522
+[09-Oct-2020 20:35:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1161
+[09-Oct-2020 20:35:39 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1161
+[09-Oct-2020 20:35:40 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1161
+[09-Oct-2020 20:35:40 Asia/Singapore] PHP Parse error:  syntax error, unexpected '}' in /home/boffolo/public_html/demo-boffolo/catalog/model/catalog/product.php on line 1161
+[30-Oct-2020 04:00:13 UTC] PHP Warning:  unlink(/home/boffolo/public_html/demo-boffolo/system/storage/cache/cache.country.catalog.1603853558): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/cache/file.php on line 17
+[30-Oct-2020 04:00:14 UTC] PHP Warning:  unlink(/home/boffolo/public_html/demo-boffolo/system/storage/cache/cache.language.1603853551): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/cache/file.php on line 17
+[06-Nov-2020 11:10:01 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(76): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[06-Nov-2020 11:14:57 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(76): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[06-Nov-2020 11:25:27 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(76): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[06-Nov-2020 11:27:33 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(76): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[06-Nov-2020 11:27:46 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(76): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[06-Nov-2020 11:28:19 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(76): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[06-Nov-2020 11:32:53 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(76): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[06-Nov-2020 11:55:09 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: E-Mail sender required! in /home/boffolo/public_html/demo-boffolo/system/library/mail.php:82
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/catalog/controller/extension/module/customcontact.php(76): Mail->send()
+#1 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerExtensionModuleCustomContact->index(Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/content_top.php(66): Loader->controller('extension/modul...')
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerCommonContentTop->index(Array)
+#5 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#6 /home/boffolo/public_html/demo-boffolo/catalog/controller/common/hom in /home/boffolo/public_html/demo-boffolo/system/library/mail.php on line 82
+[09-Nov-2020 15:33:07 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:33:13 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:33:17 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:34:41 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:34:45 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:34:45 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:34:45 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:36:02 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:36:05 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:36:20 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[09-Nov-2020 15:36:21 Asia/Singapore] PHP Fatal error:  Uncaught Error: Class 'Controllercomponentpagination' not found in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php:43
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(24): Action->execute(Object(Registry), Array)
+#1 /home/boffolo/public_html/demo-boffolo/catalog/controller/product/category.php(293): Loader->controller('component/pagin...', Array)
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerProductCategory->index()
+#3 /home/boffolo/public_html/demo-boffolo/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#4 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#5 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(34): Action->execute(Object(Registry))
+#6 /home/boffolo/public_html/demo-boffolo/system/engine/front.php(29): Front->ex in /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/action.php on line 43
+[13-Nov-2020 07:36:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:36:44 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:44 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:44 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:43:44 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:44 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:44 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 15:59:09 UTC] PHP Warning:  unlink(/home/boffolo/public_html/demo-boffolo/system/storage/cache/cache.product_np.1605282260): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/cache/file.php on line 17
+[02-Feb-2021 02:11:27 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 02:11:28 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 02:11:28 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 02:11:28 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 04:17:09 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 04:17:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 04:17:09 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 04:17:09 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 04:57:48 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 04:57:48 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 04:57:48 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 04:57:48 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 05:54:02 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 05:54:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 05:54:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 05:54:02 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 06:27:03 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 06:27:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 06:27:03 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 06:27:03 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 07:28:32 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 07:28:32 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 07:28:32 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 07:28:32 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 09:26:00 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 09:26:00 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 09:26:00 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 09:26:00 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:14:01 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:14:01 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:14:01 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:14:01 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:14:17 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:14:17 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:14:17 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:14:17 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:43:29 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:43:29 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:43:29 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:43:29 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:23 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:44:23 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:23 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:23 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:24 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:44:24 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:24 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:24 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:43 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:44:43 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:43 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:44:43 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:31 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:31 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:31 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:31 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:32 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:32 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:32 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:32 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:33 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:33 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:33 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:33 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:33 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:33 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:33 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:33 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:34 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:34 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:34 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:34 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:39 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:39 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:39 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:39 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:45:41 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:46:42 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:46:42 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:46:42 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:46:42 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:53:31 Asia/Singapore] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'boffolo_db'@'localhost' (using password: YES) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[02-Feb-2021 10:53:31 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:53:31 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:53:31 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[02-Feb-2021 10:54:48 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'boffcgqr_db.boffolo_extension' doesn't exist<br />Error No: 1146<br />SELECT * FROM boffolo_extension WHERE `type` = 'openbay'' in /home/boffcgqr/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM b...', Array)
+#1 /home/boffcgqr/public_html/system/library/openbay.php(117): DB->query('SELECT * FROM b...')
+#2 /home/boffcgqr/public_html/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/boffcgqr/public_html/system/storage/modification/system/engine/loader.php(116): Openbay->__construct(Object(Registry))
+#4 /home/boffcgqr/public_html/system/framework.php(81): Loader->library('openbay')
+#5 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#6 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#7 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 40
+[02-Feb-2021 10:54:49 Asia/Singapore] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'boffcgqr_db.boffolo_extension' doesn't exist<br />Error No: 1146<br />SELECT * FROM boffolo_extension WHERE `type` = 'openbay'' in /home/boffcgqr/public_html/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM b...', Array)
+#1 /home/boffcgqr/public_html/system/library/openbay.php(117): DB->query('SELECT * FROM b...')
+#2 /home/boffcgqr/public_html/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/boffcgqr/public_html/system/storage/modification/system/engine/loader.php(116): Openbay->__construct(Object(Registry))
+#4 /home/boffcgqr/public_html/system/framework.php(81): Loader->library('openbay')
+#5 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#6 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#7 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 40
+[06-Feb-2021 00:39:02 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 7
+[06-Feb-2021 00:39:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[06-Feb-2021 00:39:02 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[06-Feb-2021 00:39:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffcgqr/public_html/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffcgqr_db', 'P;QrNbI19R2B', 'boffcgqr_db', '3306')
+#1 /home/boffcgqr/public_html/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffcgqr_db', 'P;QrNbI19R2B', 'boffcgqr_db', '3306')
+#2 /home/boffcgqr/public_html/system/startup.php(132): require_once('/home/boffcgqr/...')
+#3 /home/boffcgqr/public_html/index.php(22): start('catalog')
+#4 {main}
+  thrown in /home/boffcgqr/public_html/system/library/db/mysqli.php on line 10
+[13-Feb-2021 16:11:32 UTC] PHP Fatal error:  Uncaught Hybrid_Exception: You cannot access this page directly. in /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php:211
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(157): Hybrid_Endpoint->authInit()
+#1 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(55): Hybrid_Endpoint->processAuthDone()
+#2 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(72): Hybrid_Endpoint->__construct(Array)
+#3 /home/boffcgqr/public_html/catalog/controller/extension/d_social_login/callback.php(12): Hybrid_Endpoint::process()
+#4 /home/boffcgqr/public_html/system/storage/modification/system/engine/action.php(51): ControllerExtensionDSocialLoginCallback->index()
+#5 /home/boffcgqr/public_html/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#6 /home/boffcgqr/public_html/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#7 /home/boffcgqr/publi in /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php on line 217
+[02-Mar-2021 00:16:33 UTC] PHP Fatal error:  Uncaught Hybrid_Exception: You cannot access this page directly. in /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php:211
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(117): Hybrid_Endpoint->authInit()
+#1 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(51): Hybrid_Endpoint->processAuthStart()
+#2 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(72): Hybrid_Endpoint->__construct(Array)
+#3 /home/boffcgqr/public_html/catalog/controller/extension/d_social_login/callback.php(12): Hybrid_Endpoint::process()
+#4 /home/boffcgqr/public_html/system/storage/modification/system/engine/action.php(51): ControllerExtensionDSocialLoginCallback->index()
+#5 /home/boffcgqr/public_html/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#6 /home/boffcgqr/public_html/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#7 /home/boffcgqr/publ in /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php on line 217
+[04-Mar-2021 23:52:25 UTC] PHP Fatal error:  Uncaught Hybrid_Exception: You cannot access this page directly. in /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php:211
+Stack trace:
+#0 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(117): Hybrid_Endpoint->authInit()
+#1 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(51): Hybrid_Endpoint->processAuthStart()
+#2 /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php(72): Hybrid_Endpoint->__construct(Array)
+#3 /home/boffcgqr/public_html/catalog/controller/extension/d_social_login/callback.php(12): Hybrid_Endpoint::process()
+#4 /home/boffcgqr/public_html/system/storage/modification/system/engine/action.php(51): ControllerExtensionDSocialLoginCallback->index()
+#5 /home/boffcgqr/public_html/catalog/controller/startup/router.php(25): Action->execute(Object(Registry))
+#6 /home/boffcgqr/public_html/system/storage/modification/system/engine/action.php(51): ControllerStartupRouter->index()
+#7 /home/boffcgqr/publ in /home/boffcgqr/public_html/system/library/d_social_login/hybrid/endpoint.php on line 217

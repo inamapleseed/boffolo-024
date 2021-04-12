@@ -1,0 +1,325 @@
+[05-Oct-2020 15:54:51 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:55:12 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:55:13 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:55:21 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:55:28 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:56:02 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=41') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '41' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:56:26 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=41') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '41' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:56:28 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=41') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '41' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:56:29 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=41') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '41' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 15:58:07 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Unknown column 'product_pdf_id2' in 'field list'<br />Error No: 1054<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, product_pdf_id2, product_pdf_id3, product_pdf_id4, product_pdf_id5, filename, filename2, filename3, filename4, filename5, mask, mask2, mask3, mask4, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=41') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id) WHERE p.product_id = '41' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(16): DB\MySQLi->query('SELECT DISTINCT...', Array)
+#1 /home/boffolo/public_html/demo-boffolo/admin/model/catalog/product.php(553): DB->query('SELECT DISTINCT...')
+#2 /home/boffolo/public_html/demo-boffolo/system/storage/modification/system/engine/loader.php(184): ModelCa in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Oct-2020 16:58:22 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[05-Oct-2020 16:58:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[05-Oct-2020 16:58:22 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[05-Oct-2020 16:58:22 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[05-Oct-2020 17:20:10 Asia/Singapore] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[05-Oct-2020 17:20:10 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[05-Oct-2020 17:20:10 Asia/Singapore] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[05-Oct-2020 17:20:10 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[09-Oct-2020 19:23:23 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 19:24:03 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 19:25:44 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 19:25:45 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 19:47:22 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 19:47:58 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 19:49:44 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 20:12:03 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 20:24:04 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 20:24:09 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[09-Oct-2020 20:29:46 Asia/Singapore] PHP Fatal error:  Uncaught Exception: Error: Column 'product_pdf_id2' in field list is ambiguous<br />Error No: 1052<br />SELECT DISTINCT p.*, pd.name, product_pdf_id, filename, mask, product_pdf_id2, filename2, mask2, product_pdf_id3, filename3, mask3, product_pdf_id4, filename4, mask4, product_pdf_id5, filename5, mask5, (SELECT keyword FROM boffolo_url_alias WHERE query = 'product_id=40') AS keyword FROM boffolo_product p LEFT JOIN boffolo_product_description pd ON (p.product_id = pd.product_id) LEFT JOIN `boffolo_product_pdf` pp ON (pp.product_id = p.product_id)  LEFT JOIN `boffolo_product_pdf2` pp2 ON (pp2.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf3` pp3 ON (pp3.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf4` pp4 ON (pp4.product_id = p.product_id) LEFT JOIN `boffolo_product_pdf5` pp5 ON (pp5.product_id = p.product_id)  WHERE p.product_id = '40' AND pd.language_id = '1' in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/ in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 40
+[05-Nov-2020 07:09:52 UTC] PHP Warning:  POST Content-Length of 30235208 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[10-Nov-2020 07:02:08 UTC] PHP Warning:  POST Content-Length of 30235210 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-Nov-2020 07:36:31 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:36:31 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:31 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:31 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:36:36 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:36 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:36 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:37 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:36:37 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:37 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:37 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:39 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:36:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:36:39 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:37:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:37:18 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:37:18 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:37:18 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:39:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:39:04 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:39:04 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:39:04 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:40:38 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:40:38 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:40:38 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:40:38 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:41:10 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:41:10 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:41:10 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:41:10 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:32 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:43:32 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:32 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:32 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:38 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:43:38 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:38 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:38 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:49 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:43:49 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:49 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:43:49 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:49:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 7
+[13-Nov-2020 07:49:53 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:49:53 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 07:49:53 UTC] PHP Fatal error:  Uncaught Exception: Error: <br />Error No:  in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/boffolo/public_html/demo-boffolo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#1 /home/boffolo/public_html/demo-boffolo/system/framework.php(36): DB->__construct('mysqli', 'localhost', 'boffolo_db', 'xbY{{~H;sL]n', 'boffolo_db', '3306')
+#2 /home/boffolo/public_html/demo-boffolo/system/startup.php(132): require_once('/home/boffolo/p...')
+#3 /home/boffolo/public_html/demo-boffolo/admin/index.php(22): start('admin')
+#4 {main}
+  thrown in /home/boffolo/public_html/demo-boffolo/system/library/db/mysqli.php on line 10
+[13-Nov-2020 13:55:43 UTC] PHP Warning:  POST Content-Length of 11190321 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-Nov-2020 14:10:49 UTC] PHP Warning:  POST Content-Length of 11190322 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[13-Nov-2020 14:36:21 UTC] PHP Warning:  POST Content-Length of 11190322 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[16-Nov-2020 16:39:09 UTC] PHP Warning:  POST Content-Length of 11190322 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[17-Nov-2020 17:29:15 UTC] PHP Warning:  POST Content-Length of 11190322 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[02-Feb-2021 11:29:02 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:02 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:02 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:10 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:10 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:10 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:10 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:10 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:10 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:15 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:15 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:15 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:18 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:18 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:18 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:19 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:19 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:19 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:32 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:32 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:32 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:32 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:32 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:32 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:49 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:49 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:49 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:50 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:50 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:50 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:51 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:51 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:51 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:29:52 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:29:52 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:29:52 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:30:41 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:30:41 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:30:41 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:30:42 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:30:42 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:30:42 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:30:46 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:30:46 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:30:46 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:33:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:33:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:33:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:33:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:33:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:33:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:41:35 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:41:35 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:41:35 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 11:48:31 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 11:48:31 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 11:48:31 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 12:11:28 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 12:11:28 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 12:11:28 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 12:11:30 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 12:11:30 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 12:11:30 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 13:22:25 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 13:22:25 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 13:22:25 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 13:22:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 13:22:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 13:22:29 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 13:22:30 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 13:22:30 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 13:22:30 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 13:22:37 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 13:22:37 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 13:22:37 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 13:22:42 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 13:22:42 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 13:22:42 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
+[02-Feb-2021 13:22:43 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 71
+[02-Feb-2021 13:22:43 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 72
+[02-Feb-2021 13:22:43 Asia/Singapore] PHP Warning:  Constants may only evaluate to scalar values in /home/boffcgqr/public_html/boffolo02022021/config.php on line 73
